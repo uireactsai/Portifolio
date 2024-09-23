@@ -1,0 +1,25 @@
+.about-container{
+    height:80vh;
+    background-color:black;
+    border: 3px solid mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.scrool-container{
+    color: white;
+}
+
+
+
+
+

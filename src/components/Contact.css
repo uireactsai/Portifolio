@@ -1,0 +1,40 @@
+.contact-container{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.head{
+    color: white;
+}
+
+.link-container{
+    background-color: black;
+    border: 2px solid plum;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+display: flex;
+border: 1px solid rebeccapurple;
+}
+.pdf-container{
+    background-color: black;
+    padding: 20px;
+}
+
+.contact{
+    color: white;
+}
+
+
+
+
