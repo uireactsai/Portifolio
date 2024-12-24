@@ -14,7 +14,6 @@
 
 .link-container{
     background-color: black;
-    border: 2px solid plum;
     display: flex;
     flex-direction: column;
 }
@@ -24,7 +23,7 @@
 }
 .link{
 display: flex;
-border: 1px solid rebeccapurple;
+border: 1px solid rgb(55, 54, 55);
 }
 .pdf-container{
     background-color: black;

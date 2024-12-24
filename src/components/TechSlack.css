@@ -5,31 +5,30 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    /* margin-top: 20px; */
     align-items: center;
-    height: 65vh;
+    height: 80vh;
     width: 100%;
   }
   .tech{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:6px;
-    
+    /* column-count: 3; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: auto; */
+  
 }
   .tech-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    padding: 5px;
+    padding: 6px;
     border: 1px solid rgb(243, 100, 100);
     margin: 5px;
   }
   
   .tech-item img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     transition: transform 0.3s ease;
   }

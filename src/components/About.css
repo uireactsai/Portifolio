@@ -1,12 +1,13 @@
 .about-container{
-    height:80vh;
+    height:90vh;
     background-color:black;
-    border: 3px solid mediumaquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-image: radial-gradient( #4a5568 1px ,transparent 1px);
+    background-size: 20px 20px ;
 }
 .head{
     display: flex;
@@ -18,8 +19,6 @@
 .scrool-container{
     color: white;
 }
-
-
 
 
 

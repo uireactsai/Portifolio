@@ -38,8 +38,8 @@ const Contact = () => {
         <div className='pdf-container'>
            {/* <p style={{color:'white'}}>For complete details Download my <b>RESUME</b></p> */}
            <b style={{color:'white'}} >For Further Details Download my RESUME</b>
-           <a href="public\Sai_Resume_React.js.pdf" download="Resume.pdf">
-            HERE
+           <a href="/Sai_Resume_React.js.pdf" download="Resume.pdf">
+             HERE
             </a>
         </div>
 

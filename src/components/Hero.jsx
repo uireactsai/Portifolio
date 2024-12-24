@@ -24,15 +24,15 @@ const Hero = () => {
     
       <div className='image-container'
         style={{
-          opacity: showImage ? 1 : 0, // Image fades in
+          opacity: showImage ? 1 : 0,
         }}
       >
         <img
           src="https://static.vecteezy.com/system/resources/previews/005/972/881/original/business-team-employees-user-icon-free-vector.jpg"
           alt="profile picture"
           style={{
-            width: '300px',
-            height: '300px',
+            width:'50%',
+            height: '50%',
             borderRadius: '50%',
           }}
         />
@@ -47,7 +47,7 @@ const Hero = () => {
       >
         <h1>Hey</h1>
         <p>
-          I'm a Ui developer with a passion for creating useful and functional websites.
+          I'm a Ui developer with a passion for creating useful and functional web Applications.
         </p>
       </div>
       </div>

@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Hallowed Grounds';
+    font-size: 6em;
+}
+
+.banner::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/5652010.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+    /* -webkit-mask-image: url('/black.gif'); */
+    -webkit-mask-image: var(--dynamic-mask);
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+
+    /* mask-image: url('/black.gif'); */
+    mask-image: var(--dynamic-mask);
+    mask-size: cover;
+    mask-position: center;
+}

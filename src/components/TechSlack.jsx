@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './TechSlack.css'
 const TechSlack = () => {
-    
-
     const techs=[
         {src:'https://th.bing.com/th/id/OIP.HYnSLHuRRm79T2R8yUkBCwHaER?rs=1&pid=ImgDetMain',
             desc:'Used React for different ui screens creation.'
@@ -14,17 +12,18 @@ const TechSlack = () => {
             desc:'HTML and CSS.'
         },
         {src:'https://th.bing.com/th/id/OIP.mDBmQh_-PLFtRRovcbCqkgAAAA?rs=1&pid=ImgDetMain',
-            desc:'React-Redux.'
+            desc:'React-Redux Tool Kit'
         },
         {src:'https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png',
             desc:'Node js.'
         },
-        {src:'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png',
-            desc:'React Query.'
-        },
         {src:'https://th.bing.com/th/id/OIP.RxYh9DLkBUwJe3Gpf9yQXwHaGm?w=175&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
             desc:'Material ui Library.'
         },
+        {src:'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png',
+            desc:'React Query.'
+        },
+       
        
     ];
 
