@@ -31,8 +31,8 @@ const Hero = () => {
           src="https://static.vecteezy.com/system/resources/previews/005/972/881/original/business-team-employees-user-icon-free-vector.jpg"
           alt="profile picture"
           style={{
-            width:'50%',
-            height: '50%',
+            width:'40%',
+            height: '40%',
             borderRadius: '50%',
           }}
         />
@@ -46,9 +46,9 @@ const Hero = () => {
         }}
       >
         <h1>Hey</h1>
-        <p>
+        <h2>
           I'm a Ui developer with a passion for creating useful and functional web Applications.
-        </p>
+        </h2>
       </div>
       </div>
     </div>

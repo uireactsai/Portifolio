@@ -24,6 +24,7 @@
         transition: transform 1s ease-in-out;
         /* padding: '2rem'; 
           whiteSpace:nowrap */   
+          width: 64%;
 }
 
 h1,p{
