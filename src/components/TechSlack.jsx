@@ -3,27 +3,29 @@ import './TechSlack.css'
 const TechSlack = () => {
     const techs=[
         {src:'https://th.bing.com/th/id/OIP.HYnSLHuRRm79T2R8yUkBCwHaER?rs=1&pid=ImgDetMain',
-            desc:'Used React for different ui screens creation.'
+            desc:'Used React for different ui screens development'
         },
         {src:'https://th.bing.com/th/id/R.35fde9e2f21022536029356e95c86faa?rik=tKrXgn2dvVJqAw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flogo-javascript-png-javascript-ile-twitter-retweet-uygulamas-833.png&ehk=EYrDqaaPfX6%2fHeLEOTnVTnshumwnFWj06e8qHpLVHko%3d&risl=&pid=ImgRaw&r=0',
-            desc:'Javascript-es6'
+            desc:'Javascript-es6 the main scripting language'
         },
         {src:'https://icon-library.com/images/2018/2844448_css3-logo-html-css-hd-png-download.png',
-            desc:'HTML and CSS.'
+            desc:'HTML and CSS for skelton and styling of application '
         },
         {src:'https://th.bing.com/th/id/OIP.mDBmQh_-PLFtRRovcbCqkgAAAA?rs=1&pid=ImgDetMain',
-            desc:'React-Redux Tool Kit'
+            desc:'Used React-Redux Tool Kit for global State management'
         },
-        {src:'https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png',
-            desc:'Node js.'
+        {src:'https://thecodebytes.com/wp-content/webpc-passthru.php?src=https://thecodebytes.com/wp-content/uploads/2022/10/what-is-express-in-node-1.png&nocache=1',
+            desc:'Good knowledge on  Node js and Express.js'
         },
         {src:'https://th.bing.com/th/id/OIP.RxYh9DLkBUwJe3Gpf9yQXwHaGm?w=175&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            desc:'Material ui Library.'
+            desc:'MaterialUi Library for faster development'
+        },
+        {src:'https://blog.logrocket.com/wp-content/uploads/2021/07/using-chartjs-react.png',
+            desc:'React Chart2.js for more modern charts representation  of data '
         },
         {src:'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png',
-            desc:'React Query.'
-        },
-       
+            desc:'React Query for faster API Integration'
+        }
        
     ];
 

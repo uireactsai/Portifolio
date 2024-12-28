@@ -28,11 +28,12 @@ const Hero = () => {
         }}
       >
         <img
-          src="https://static.vecteezy.com/system/resources/previews/005/972/881/original/business-team-employees-user-icon-free-vector.jpg"
+          // src="https://static.vecteezy.com/system/resources/previews/005/972/881/original/business-team-employees-user-icon-free-vector.jpg"
+          src='/saiPhoto.jpeg'
           alt="profile picture"
           style={{
             width:'40%',
-            height: '40%',
+            height: '80%',
             borderRadius: '50%',
           }}
         />

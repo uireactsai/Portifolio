@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <>
      <nav className="navbar">
-      <div className="navbar-logo">Logo</div>
+      <div className="navbar-logo">sai</div>
       <button className="menu-toggle" onClick={handleMenuToggle}>
         ☰
       </button>

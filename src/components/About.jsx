@@ -8,29 +8,33 @@ const About = () => {
     <div className='about-container'>
         {/* <div>About</div> */}
         <div className='head' >
-            <h1 >ABOUT</h1>
+            <h1>ABOUT</h1>
+            <p style={{fontSize:'2rem'}}>
+            Hi, I'm Sai Subhash 
+            </p>
             <p style={{width:'80%',fontSize:'2rem'}}>
-                Hey! I'm Sai Subhash, a React.js developer with a passion for crafting sleek, performant web apps.
-                 I focus on building interactive user interfaces with clean, maintainable code.
-                  From optimizing front-end workflows to implementing cutting-edge features, I'm all about creating new web applications with newest features                  
-                  Currently leveling up with learning backend by <b>Node.js and Express.js</b>
-                  {/* advanced React patterns, Redux for state management, and exploring Next.js to push the boundaries of web performance. */}
-                  
+A React.js Developer driven by the pursuit of crafting dynamic, high-performance web applications.
+<br/> I focus on delivering seamless user experiences with efficient, scalable code.
+<br/>Currently enhancing my backend expertise with Node.js and Express.js to evolve into a full-stack developer. 
+<br/>I thrive in collaborative environments, building solutions that merge innovation with functionality.
+<br/>Core Skills: React.js, Redux, JavaScript (ES6+),HTML,CSS, Node.js, Express.js, API Development, Responsive Design.
+<br/>
+Let's collaborate and bring impactful ideas to life!
             </p>
         </div>
-        <div>
+        <div className='sub'>
       <TypeAnimation
   sequence={[
     // Same substring at the start will only be typed once, initially
-    'I have experience in',
+    'I am experienced in',
     1000,
-    'I have experience in React.js',
+    'I am experienced in React.js',
     1000,
-    'I have experience in javascript',
+    'I am experienced in javascript',
     1000,
-    'I have experience in html&css',
+    'I am experienced in html&css',
     1000,
-    'I have experience in Redux',
+    'I am experienced in Redux Tool Kit',
     1000,
   ]}
   speed={50}
@@ -41,8 +45,9 @@ const About = () => {
 <div className='scrool-container'>
     <p>
       Click Here to view  &nbsp;
+
      <NavLink to={'/projects'} 
-     style={{color:'#D1D2D3'}}
+     style={{color:'#B7AEAB',fontSize:'2rem'}}
     //  style={({ isActive, isPending }) => ({
     //   fontWeight: isActive ? 'bold' : '',
     //   color: isPending ? 'purple' : 'white',})

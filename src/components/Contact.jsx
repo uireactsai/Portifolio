@@ -1,13 +1,13 @@
 import React from 'react'
-import './Contact.css'
+import './Contact.css';
 const Contact = () => {
     const socialLinks = [
         { icon: 'https://gmlconsult.com/wp-content/uploads/2021/10/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png',
-            link: '',
+            link: 'https://www.linkedin.com/in/sai-subhash-57b060216/',
             label: 'LinkedIn' },
-        { icon: 'https://th.bing.com/th/id/OIP.IIxh1JhqVj3FP-gqJzd5WAHaHk?rs=1&pid=ImgDetMain', 
-            link: '',
-             label: 'Discord' },
+        // { icon: 'https://th.bing.com/th/id/OIP.IIxh1JhqVj3FP-gqJzd5WAHaHk?rs=1&pid=ImgDetMain', 
+        //     link: '',
+        //      label: 'Discord' },
       ];
 
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
         <div className='pdf-container'>
            {/* <p style={{color:'white'}}>For complete details Download my <b>RESUME</b></p> */}
            <b style={{color:'white'}} >For Further Details Download my RESUME</b>
-           <a href="/Sai_Resume_React.js.pdf" download="Resume.pdf">
+           <a href='/saiSubhash_resume.docx' download="Resume.pdf">
              HERE
             </a>
         </div>

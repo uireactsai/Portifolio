@@ -19,8 +19,14 @@ const Main = () => {
     <div className='banner'>
         <div className='content'>
             <div className='title'>Welcome</div>
-            <p>This Portifolio is an part of challenge where this is build in an 4hrs timespan </p>
-            <button onClick={handleNext}>go to Portfolio</button>
+            <p>This Portfolio is an part of a half day build challenge</p>
+              <button onClick={handleNext}
+               style={{ backgroundColor:'#000',
+               color:'#fff',
+               borderRadius:'10%'
+               }}>
+               Click Here
+                </button> 
         </div>
     </div>
   )
