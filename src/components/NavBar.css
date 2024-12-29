@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    /* width: 60%; */
+    width: auto;
   }
   
   .navbar-logo {
@@ -54,7 +54,7 @@
       position: absolute;
       top: 100%;
       left: 0;
-      width: 100%;
+      width: auto;
       padding: 1rem;
     }
   
@@ -68,6 +68,11 @@
   
     .navbar-links li:last-child {
       margin-bottom: 0;
+    }
+  }
+  @media (width <= 700px) {
+    .navbar{
+      width: auto;
     }
   }
   

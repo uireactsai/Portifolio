@@ -20,5 +20,10 @@
     color: white;
 }
 
+@media (width <= 500px) {
+   .head p{
+        font-size: 0.5rem;
+    }
+}
 
 
