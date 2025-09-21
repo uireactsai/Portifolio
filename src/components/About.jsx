@@ -13,7 +13,7 @@ const About = () => {
             Hi, I'm Sai Subhash
             </p> */}
             <p style={{width:'80%',fontSize:'2rem'}}>
-A React.js Developer driven by the pursuit of crafting dynamic, high-performance web applications.
+Developer driven by the pursuit of crafting dynamic, high-performance web applications.
 <br/> I focus on delivering seamless user experiences with efficient, scalable code.
 <br/>Currently enhancing my backend expertise with Node.js and Express.js to evolve into a full-stack developer. 
 <br/>I thrive in collaborative environments, building solutions that merge innovation with functionality.

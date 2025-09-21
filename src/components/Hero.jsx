@@ -48,7 +48,8 @@ const Hero = () => {
       >
         <h1>Hey</h1>
         <h2>
-          I'm a Ui developer with a passion for creating useful and functional web Applications.
+          I'm a MERN Stack developer with a passion for creating useful and functional web Applications.
+          Technofile and a quick learner. 
         </h2>
       </div>
       </div>

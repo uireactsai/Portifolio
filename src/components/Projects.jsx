@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Projects = () => {
   return (
-    <div style={{background:'#6D6C6C'}}>
+    <div style={{background:'#6D6C6C',minHeight:'fit-content',paddingBottom:'1rem'}} >
 
     <VerticalTimeline>
 
@@ -40,7 +40,7 @@ const Projects = () => {
     }
   >
     <h3 className="vertical-timeline-element-title">TCS </h3>
-    <h4 className="vertical-timeline-element-subtitle">Assistant System Engineer</h4>
+    <h4 className="vertical-timeline-element-subtitle"> Systems Engineer</h4>
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
@@ -62,7 +62,7 @@ const Projects = () => {
     iconStyle={{ background: '#E8E4E3', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Resourse Management </h3>
-    <h4 className="vertical-timeline-element-subtitle">Internal Speed Portal</h4>
+    <h4 className="vertical-timeline-element-subtitle">Internal Portal</h4>
     <p>
     Employee Project Management System is a web based application for an Tcs internal project where an employee can raise a
      request for their requirements such as their preferred technology and preferred location. </p>
@@ -82,7 +82,7 @@ const Projects = () => {
   >
     <h3 className="vertical-timeline-element-title">TCS-TATA CONSULTANCY SERVICES </h3>
     <p>
-      Joined TATA CONSULTANCY SERVICES as a fresher 
+      Joined TATA CONSULTANCY SERVICES as a Assistant System Engineer 
     </p>
   </VerticalTimelineElement>
 
@@ -92,7 +92,7 @@ const Projects = () => {
     iconStyle={{ background: '#000' }}
     icon={
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', width: '100%', height: '100%'}}>
- <img src='https://www.edarabia.com/wp-content/uploads/2018/10/srkr-engineering-college-bhimavaram-india.jpg'
+ <img src='./srkr.jpg'
     alt='srkr logo' style={{height:'90%',width:'90%',borderRadius:'48%'}}/>
     </div>
     }
@@ -100,7 +100,7 @@ const Projects = () => {
     <h3 className="vertical-timeline-element-title">SRKR ENGINEERING COLLEGE</h3>
     <h4 className="vertical-timeline-element-subtitle">EEE-ELECTRICAL AND ELECTRONICS ENGINEERING</h4>
     <p>
-      Completed graduation in the stream of EEE
+      Graduation in the stream of EEE
     </p>
   </VerticalTimelineElement>
 
